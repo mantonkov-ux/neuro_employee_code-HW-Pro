@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 700px; margin: 40px auto; padding: 20px; }
+        .card { background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        a { color: #0d6efd; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>📞 Контакты поддержки</h1>
+    
+    <div class="card">
+        <p>Если у вас возникли вопросы по работе бота или платформы, свяжитесь с нами:</p>
+        <ul>
+            <li>📧 Email: <a href="mailto:support@neuro-employee.ru">support@neuro-employee.ru</a></li>
+            <li>💬 Telegram: <a href="https://t.me/neuro_hr_support">@neuro_hr_support</a></li>
+            <li>📱 Телефон: +7 (999) 000-00-00</li>
+        </ul>
+    </div>
+
+    <p><a href="{% url 'assistant_app:index' %}">← Вернуться на главную</a></p>
+</body>
+</html>
